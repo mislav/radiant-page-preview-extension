@@ -1,7 +1,7 @@
 class PagePreviewExtension < Radiant::Extension
-  version "1.0"
+  version "1.1"
   description "Enables previewing pages from the edit screen"
-  url "http://github.com/tricycle/raidant-page-preview-extension"
+  url "http://github.com/mislav/raidant-page-preview-extension"
   
   define_routes do |map|
     map.connect 'admin/preview', :controller => 'preview', :action => 'show'
